@@ -1,3 +1,11 @@
+## Screenshots
+
+![Screenshot](extras/2026-09-17-174343.png)
+
+
+
+
+
 ## AI disclosure
 
 Vita Weather was fully built with the assistance of generative AI tools under
