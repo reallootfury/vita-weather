@@ -1,6 +1,8 @@
 ## Screenshots
 
 ![Screenshot](extras/2026-09-17-174343.png)
+![Screenshot2](extras/2026-09-17-174355.png)
+![Screenshot3](extras/2026-09-17-174417.png)
 
 
 
