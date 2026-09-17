@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="158" viewBox="0 0 280 158">
+  <defs>
+    <linearGradient id="wordmark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#bce9ff"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-30%" width="150%" height="170%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dy="4"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.45"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <g filter="url(#shadow)">
+    <circle cx="53" cy="57" r="18" fill="#ffd36a"/>
+    <g fill="#f6fbff">
+      <circle cx="34" cy="78" r="17"/>
+      <circle cx="53" cy="69" r="23"/>
+      <circle cx="74" cy="80" r="15"/>
+      <rect x="18" y="78" width="72" height="23" rx="11"/>
+    </g>
+    <g stroke="#65ccff" stroke-width="5" stroke-linecap="round">
+      <path d="M34 111l-4 9"/><path d="M55 111l-4 9"/><path d="M76 111l-4 9"/>
+    </g>
+    <text x="102" y="72" fill="url(#wordmark)" font-family="sans-serif" font-size="29" font-weight="700" letter-spacing="1">VITA</text>
+    <text x="99" y="108" fill="url(#wordmark)" font-family="sans-serif" font-size="32" font-weight="700">WEATHER</text>
+    <rect x="102" y="117" width="143" height="3" rx="1.5" fill="#65ccff" opacity="0.9"/>
+  </g>
+</svg>

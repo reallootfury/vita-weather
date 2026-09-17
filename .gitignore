@@ -1,0 +1,29 @@
+/build/
+/log/
+/weather data/
+
+
+
+# Local Vita/Vita3K runtime products and crash evidence.
+*.vpk
+*.self
+*.velf
+eboot.bin
+*.psp2dmp
+*.core
+*.ppm
+
+# Superseded generated assets retained locally for comparison only.
+/assets/*.rgb565
+/assets/InterVariable.ttf
+/assets/Overpass-SemiBold.ttf
+/assets/OFL-Overpass.txt
+
+# Editor and user-specific build state.
+.vscode/
+.idea/
+CMakeUserPresets.json
+*.swp
+*.tmp
+__pycache__/
+*.pyc
